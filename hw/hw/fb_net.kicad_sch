@@ -1,0 +1,2861 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4e6daaf2-7813-4d9d-9596-1c2a376655a2")
+	(paper "A4")
+	(title_block
+		(title "PEtra")
+		(date "2025-01-17")
+		(rev "2")
+		(company "IIS")
+		(comment 1 "Author: Marc-André Wessner")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DIP_x05"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x05"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x05_0_0"
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.9276) (xy 2.3622 -3.8862)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.207) (xy 2.3622 6.2484)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x05_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x05_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 80.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10d8501d-8174-412d-979c-3c43238f325b")
+	)
+	(junction
+		(at 157.48 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23fa5de8-1189-45b9-abf7-69fb2e6dba4e")
+	)
+	(junction
+		(at 172.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe3e313-5ec1-4b34-83dc-155c2fd59d15")
+	)
+	(junction
+		(at 80.01 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44d85fd3-cf61-4602-a7a1-af5124b1e169")
+	)
+	(junction
+		(at 80.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e200e52-071a-47fe-8bed-95d21a8ec9f3")
+	)
+	(junction
+		(at 130.81 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ea381d6-b574-48c2-bfb7-4ec24b4cf77b")
+	)
+	(junction
+		(at 146.05 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "700f5d9e-a02a-4415-83cf-d0ea0982e30a")
+	)
+	(junction
+		(at 203.2 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719c52f8-7356-4a09-918b-a437714ee6ed")
+	)
+	(junction
+		(at 203.2 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988ac43b-3c40-4678-bdf3-826bb1ab8592")
+	)
+	(junction
+		(at 129.54 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3cabda0-ca90-48a0-a916-f32df5117044")
+	)
+	(junction
+		(at 203.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba042d2e-ae75-43e7-9ff3-503afa34b754")
+	)
+	(junction
+		(at 146.05 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9a6b5da-14a4-417d-beef-45097e43f1eb")
+	)
+	(junction
+		(at 144.78 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dab32271-0ca4-4542-a2e5-14e48419728a")
+	)
+	(junction
+		(at 173.99 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4efe410-d597-43ec-a610-e5b43296a521")
+	)
+	(junction
+		(at 158.75 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f500a557-a985-4961-9d59-8cbd7f38e12f")
+	)
+	(junction
+		(at 130.81 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba8c0f5-6b1f-48b3-a0c7-d304aae4af87")
+	)
+	(wire
+		(pts
+			(xy 106.68 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05630cc1-c0f2-4c5e-84d8-1f432fbf893b")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057cc8a9-4149-4f91-92ea-052000c1799d")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061ee214-4f05-4e19-894f-cb58a3f2d1a5")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c9187c-fb58-4b94-b5a8-4cf67b8c44a4")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cca8d56-2bcc-4acb-b3a5-d4049210d23c")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1011f29f-fbbb-4818-a495-a98c2bbcdfe9")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1199bb08-80e6-466c-bc73-e8644ef16fa5")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1513cdef-4f92-4391-a171-088c9352cb11")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b79e28c-29ec-402d-8755-5c0d126d9cb3")
+	)
+	(wire
+		(pts
+			(xy 157.48 76.2) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7bce1c-e2db-4561-9b5e-0631af0537e8")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4a39a2-1f17-4eb0-85c9-03c1c6402209")
+	)
+	(wire
+		(pts
+			(xy 113.03 55.88) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e49508f-c90f-4af4-ae10-54d6eb11f435")
+	)
+	(wire
+		(pts
+			(xy 158.75 116.84) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209f7e88-d8fa-489f-8eca-0149d865243c")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21adfff6-91b4-4e4f-bf29-539da656eb34")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2441ade9-ff51-4a34-b4f2-54aa07adfa5d")
+	)
+	(wire
+		(pts
+			(xy 80.01 101.6) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e52e9e0-d644-46f4-8f95-3fdf27e54ba5")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389b4097-62e0-46d1-bd64-2696dbf13eb2")
+	)
+	(wire
+		(pts
+			(xy 158.75 116.84) (xy 163.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c395655-74a5-476a-ba62-c647b2374548")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c93342-569a-4401-8eb3-bafe6ffd8187")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484aea2e-dda0-4a11-be27-56fd20797a8e")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 80.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49467135-ebe6-4f77-bb8f-bc7945649d71")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ce570-4fca-4407-bcb3-248d4761ce58")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559ad93d-4244-4c00-aba1-48b21062a7c7")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 173.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bfb64a-43f2-45cc-9d0d-77d075864ed3")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4878d7-d4c7-48cc-9c63-9b0104414b6e")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 173.99 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6dd416-17a1-4fc9-a7ff-6bba9b05c367")
+	)
+	(wire
+		(pts
+			(xy 146.05 93.98) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636ee264-a6ea-409d-915d-abcc6e303ded")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d80640f-bc7f-4f2a-8302-2db499fa948b")
+	)
+	(wire
+		(pts
+			(xy 144.78 134.62) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9df249-c89f-47f1-8970-fc169e6fa04d")
+	)
+	(wire
+		(pts
+			(xy 203.2 55.88) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720556d1-a408-4166-bd96-e7b47047c54a")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761dc1f4-919d-4be7-bcfc-9965bd404427")
+	)
+	(wire
+		(pts
+			(xy 146.05 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8175f3df-7c1e-435e-9a7d-666990d3e388")
+	)
+	(wire
+		(pts
+			(xy 168.91 116.84) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86099206-0b62-41ad-98b0-626bbf4f2dbb")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b2b3b7-c280-4783-b501-c098e3532a77")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4cfbb8-20a1-439a-8251-3a2cd2064fb1")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 80.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4b529a-534d-4a77-9f61-892e6d275ced")
+	)
+	(wire
+		(pts
+			(xy 146.05 99.06) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6e4f0a-ab67-4443-8a35-73d9c2f490d6")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 80.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f96377f-e1d3-4cbf-ba3c-ddf88f61f731")
+	)
+	(wire
+		(pts
+			(xy 173.99 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e4ac71-b709-4fa7-b428-63f963759ffd")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fbb316-2579-4bf7-8d01-ea1cf4b58d2e")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 116.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a495a6da-1ded-468d-9987-7c51658d419d")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85ff91a-18e0-4413-b416-df8994896f3f")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb4f40c-76f8-4549-bf6f-484a3eb7c7a7")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acef7ad5-d8ce-4e25-831f-a3fc08a5ffe7")
+	)
+	(wire
+		(pts
+			(xy 113.03 139.7) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad348445-fb81-4579-b1ba-29b6cf51d9e2")
+	)
+	(wire
+		(pts
+			(xy 146.05 50.8) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebefac9-a81d-4430-9714-13570cd248ff")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ad0cf0-c5aa-43e1-8f2c-f1d9a91daef3")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a3a967-b84d-4ca4-a0c4-dc774c91928c")
+	)
+	(wire
+		(pts
+			(xy 106.68 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb49b727-7e49-4971-8a76-995c035ee93c")
+	)
+	(wire
+		(pts
+			(xy 146.05 55.88) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e880da-f137-4c17-be11-51280205f935")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5afd767-dd39-41b3-89a2-da821e83ebd2")
+	)
+	(wire
+		(pts
+			(xy 163.83 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c786a94e-65b5-453f-b8c1-7353fdfe5bd1")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca024372-f4dd-4583-928b-83089bf5678d")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5fca82-50c9-4f09-82e6-241d0c5b991b")
+	)
+	(wire
+		(pts
+			(xy 144.78 144.78) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca83f80-eef8-4949-83e1-15aafa2b74f0")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4b003a-46a4-4fc7-be08-fa469bd4a82c")
+	)
+	(wire
+		(pts
+			(xy 134.62 144.78) (xy 129.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1e54a0-3322-4086-a4eb-ca426523b979")
+	)
+	(wire
+		(pts
+			(xy 203.2 121.92) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce44c10d-45fe-46bf-8589-a43a451e3373")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb6c920-fc42-49f0-95f9-224369f2b779")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09c8747-6767-46ee-9380-eea085034b9c")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a879bc-94a8-48a5-acce-14c1cbad5ca7")
+	)
+	(wire
+		(pts
+			(xy 129.54 139.7) (xy 129.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3138916-0fd2-435b-b81b-cba1624c4440")
+	)
+	(wire
+		(pts
+			(xy 146.05 55.88) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66b90e3-e050-405d-b403-adca0e5847c2")
+	)
+	(wire
+		(pts
+			(xy 146.05 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39d5f02-2e0c-4de0-bf5b-2a1e9236cd30")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bd42f0-6cd4-4c4a-898e-d025fcd89488")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5469e8e-6967-41a1-8f5f-4438a6c9cf84")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a8c020-369e-4481-86a5-84342c9407a7")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c0cf30-d34b-4ae8-9bf0-a8099210e84e")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52c7864-f82c-4371-8c7f-48b7fc1c5a44")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ef7b09-956f-42ab-9027-a132711a339e")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 80.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91d3f82-c154-4800-9583-24424bd813f0")
+	)
+	(wire
+		(pts
+			(xy 67.31 99.06) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8b60d8-ff68-465d-a2f9-e7fbbca097ea")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 144.78 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faea6dad-6dd2-4016-b284-3e40d08d7e33")
+	)
+	(text "Transimpedance Amplifier\n-2.5V < OUTPUT < 2.5V\nGAIN MODES V(output) = -I(input)*G\n1. G=1k    / CutoffFreq=500Hz\n2. G=10k   / CutoffFreq=500Hz\n3. G=100k  / CutoffFreq=500Hz\n4. G=1Meg  / CutoffFreq=500Hz\n5. G=10Meg / CutoffFreq=5Hz"
+		(exclude_from_sim no)
+		(at 228.854 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1980bdbe-97e4-45d4-8781-edbe171c0bec")
+	)
+	(label "GAIN_MODE1"
+		(at 115.57 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31fc9d7e-2661-4140-8538-044a33d87d01")
+	)
+	(label "GAIN_MODE4"
+		(at 120.65 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58a7cd82-3f27-4a3d-9097-01710b2f1169")
+	)
+	(label "GAIN_MODE3"
+		(at 118.11 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e439edc-252a-4eeb-9f8b-0650163b0253")
+	)
+	(label "GAIN_MODE5"
+		(at 115.57 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9013da1f-766c-4966-9892-08d69ccc1858")
+	)
+	(label "GAIN_MODE2"
+		(at 119.38 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed74673f-1e7e-43b9-9a9f-6b55bfb50594")
+	)
+	(hierarchical_label "IN-"
+		(shape passive)
+		(at 67.31 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "649db594-1632-49bc-96d8-a3bd8a951f89")
+	)
+	(hierarchical_label "Vout"
+		(shape passive)
+		(at 214.63 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dffda3bd-9ae4-47c8-8820-363b16c79994")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 165.1 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "032b2462-ba5d-4d98-8d1e-871ebe9cd61a")
+		(property "Reference" "R10"
+			(at 165.1 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55a438bb-8213-4c4a-af8b-584c8ed670b6")
+		)
+		(pin "2"
+			(uuid "5560d865-ea3a-4892-9df0-d6280a991326")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3260bd-0f1f-42c7-bf95-d0873eaeb131")
+		(property "Reference" "C11"
+			(at 166.3763 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.3nF"
+			(at 166.3763 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/kyocera-avx/06035A321FAT2A/1599788"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70ec9fe6-aab3-42f8-aeb6-83227731a9d4")
+		)
+		(pin "2"
+			(uuid "372c7719-07d7-4de6-9a01-964afe8bad17")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 166.37 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c179542-cd98-4284-aae6-aa86cf56a20e")
+		(property "Reference" "R12"
+			(at 166.37 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1Meg"
+			(at 166.37 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/yageo/RC0603FR-071ML/726844"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c3f5496-8f4a-4deb-be62-577013795478")
+		)
+		(pin "2"
+			(uuid "18236f83-59e8-4a7c-a912-4e77366305e7")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 137.16 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82bc981-b64f-42ab-9ecc-be5f21145159")
+		(property "Reference" "R13"
+			(at 137.16 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Meg"
+			(at 137.16 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/bourns-inc/CHV2010-FX-1005ELF/5175983"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94e5d328-db0a-4405-b4a9-f65b04df6864")
+		)
+		(pin "2"
+			(uuid "76247dab-38f5-47d5-9779-ffe3d8a7f852")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b33381f2-4cf1-4178-8720-a2b793f5ce87")
+		(property "Reference" "C12"
+			(at 137.1663 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3nF"
+			(at 137.1663 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/murata-electronics/GCM1885C1H302FA16J/17856011"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d18435da-deb5-4d44-93ff-d1931102f804")
+		)
+		(pin "2"
+			(uuid "b4b45b70-5a15-436e-b868-ad92b0dce0b7")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 138.43 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf6e42c0-b846-4588-87bf-1ef793026051")
+		(property "Reference" "R11"
+			(at 138.43 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 138.43 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/yageo/RC0603FR-07100KL/726889"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "037b0ec8-400a-4b80-b897-d852da724358")
+		)
+		(pin "2"
+			(uuid "a785da2d-bf80-4772-971b-efb223325a8e")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cacfc70e-3256-48cc-87a6-0f2ea85ca45d")
+		(property "Reference" "C10"
+			(at 138.4363 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3nF"
+			(at 138.4363 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/murata-electronics/GCM1885C1H302FA16J/17856011"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da3c950e-e03f-4478-bcb0-4e119869929f")
+		)
+		(pin "2"
+			(uuid "e0c0274d-d4a3-4f69-8285-5c5fc5515d7b")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 138.43 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd965dcc-0c33-4f69-b964-204b5daf9980")
+		(property "Reference" "R9"
+			(at 138.43 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 138.43 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74924dd6-6174-4012-8c13-7fa0d25d0246")
+		)
+		(pin "2"
+			(uuid "cf1378b3-97b3-4818-9377-51268bead39b")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 165.1 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfa9a3b6-a2a2-4e83-b21c-c2c3c6003dce")
+		(property "Reference" "C9"
+			(at 165.1063 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30nF"
+			(at 165.1063 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/tdk-corporation/C2012C0G1V303J060AC/6035666"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a0a70f6-4b59-4484-891a-96c200116cd7")
+		)
+		(pin "2"
+			(uuid "fc3116c4-f085-476e-ace7-385f71f99dc7")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x05")
+		(at 99.06 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebabc268-e037-42a3-829f-e85ed4c150d6")
+		(property "Reference" "SW1"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x05"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PEtra:SW5_219SMT"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "254be82f-5c32-47b8-8381-92adca32f6dd")
+		)
+		(pin "6"
+			(uuid "53f4d1a3-859d-4812-963e-8805233eb56c")
+		)
+		(pin "10"
+			(uuid "ee2d4573-e05a-457c-bd3e-de02767538f4")
+		)
+		(pin "8"
+			(uuid "f35f2066-62a5-4aae-b0bd-7a50a663e2b1")
+		)
+		(pin "1"
+			(uuid "86f9d129-0105-4922-bc71-742d07acb0b1")
+		)
+		(pin "9"
+			(uuid "0442f55a-c992-4e9f-bb4a-366055bf8766")
+		)
+		(pin "7"
+			(uuid "43ccb21d-6fe1-448f-8597-d4781442efcd")
+		)
+		(pin "5"
+			(uuid "7707103d-16c8-4817-a1dd-609adbd97470")
+		)
+		(pin "2"
+			(uuid "acfd0058-4725-4ff3-b929-772a269500a9")
+		)
+		(pin "4"
+			(uuid "a9c82f79-298c-4519-b64d-30d89de5336b")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10353ea-1129-4beb-8caa-ad9cf55b0ad6")
+		(property "Reference" "C8"
+			(at 138.4363 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300nF"
+			(at 138.4363 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ch/de/products/detail/kemet/C1812C304K1GLCAUTO/15195494"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3826884c-48c7-4e95-9913-1181c92426d1")
+		)
+		(pin "2"
+			(uuid "2c226544-e138-48b1-b1b1-0237f00d56f1")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/dd7beea9-90bf-418a-b2e8-a2464555d0fd/68cdccaf-f6b3-47c1-bcd4-f9950dfbe594"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "TransimpedanceAmplifier"
+				(path "/f40b77a6-b90f-427b-bbf7-2c76fda70849/100b5800-9125-4083-a87e-a338fd98e522"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
